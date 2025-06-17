@@ -1,0 +1,716 @@
+.grand-hotel-regular {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#header{
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./MEDIA/IMAGES/Teashop\ background.jpeg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 880px;
+        margin-left: -90px;
+        margin-top: -280px;
+        padding-top: 10px;
+        font-size: 550px;
+        border: 5px solid;
+        border-image: linear-gradient(to right, rgb(90, 143, 61), gold, rgb(90, 143, 61)) 1 / 1 / 0 stretch;
+    }
+    #first{
+        font-family: "Grand Hotel", cursive;
+        margin-left: 480px;
+        font-size: 60px;
+        margin-top: 200px;
+        color:#678E3E;
+        padding-top: 70px;
+    }
+    #second,#third{
+        font-family: "Grand Hotel", cursive;
+        margin-left: 680px;
+        font-size: 60px;
+        margin-top: -410px;
+        color:#678E3E;
+        padding-top: 70px;
+    }
+    #third{
+        position:absolute;
+        margin-top: -60px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    #Fourth{
+        font-family: "Grand Hotel", cursive;
+        color:#678E3E;
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 650px;
+        font-size: 40px;
+    }
+    #content{
+        margin-left: 700px;
+        font-family: sans-serif;
+        font-size: 50px;
+        color: white;
+    }
+    #spl{
+        margin-left: -80px;
+        margin-top: -40px;
+    }
+    #craft{
+        margin-left: -120px;
+        margin-top: -40px;
+    }
+    #tea{
+        margin-left: 10px;
+        margin-top: -40px;
+     }
+     #exp,#learn,#inven,#one,#two,#three{
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -15px;
+        border: 5px;
+        border-color:#678E3E;
+        border-inline-color: white;
+        border-block-color: white;
+        background-color:#678E3E;
+        border-style: double;
+        color: white;
+        height: 60px;
+        width: 150px;
+        font-size: 20px;
+     }
+     .services-section {
+        position: absolute;
+  padding: 60px 80px;
+  max-width: 1600px;
+  margin: auto;
+  background-color: #ffffff;
+  margin-top: 385px;
+  border: 5px solid;
+  border-image: linear-gradient(to right, rgb(90, 143, 61), gold, rgb(90, 143, 61)) 1 / 1 / 0 stretch;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #5a7c38;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+#learns{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 410px;
+}
+#learns:hover{
+    color: #6a933e;
+    background-color: #beed8c; 
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h4 span {
+  font-size: 28px;
+  color: #5a7c38;
+  font-family: 'grand hotel', cursive;
+}
+
+.section-title h1 {
+  font-size: 40px;
+  color: #0f2137;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.services-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 70vh;
+  width: 100%;
+}
+
+
+.service-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.services-grid h3{
+    font-family: "Catamaran", sans-serif;
+}
+
+.service-card {
+  background-color: #f0f6fb;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.service-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.icon-container {
+  background-color: #c9ef8d;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #3b4c0d;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+  margin: 20px 0 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #0f2137;
+}
+
+.service-card p {
+  padding: 0 20px;
+  font-size: 16px;
+  color: #5f7e99;
+  line-height: 1.6;
+}
+
+     button::selection{
+          content: "";
+          position: absolute;
+          top: -5px;
+          left: -5px;
+          right: -5px;
+          bottom: -5px;
+          border: 2px solid #6e8c3a;
+          pointer-events: none;
+        }
+     #learn{
+        margin-left: 750px;
+        margin-top: 20px;
+     }
+     #inven{
+        margin-top: 270px;
+        margin-left: 70px;
+     }
+     #icon{
+        margin-top: 130px;
+        margin-left: -20px;
+     }
+     #content1{
+         font-family: sans-serif;
+         font-size: 15px;
+         margin-left: 430px;
+        }
+        #mug{
+            margin-top: 30px;
+            margin-left: 100px;
+            /* border: solid; */
+            width: 200px;
+            height: 180px;
+        }
+        #mug
+        .mug{
+            margin-top: 10px;
+            margin-left: 70px;
+            font-size: 50px;
+        }
+        #i1{
+          margin-left: 28px;
+          font-size: 17px;
+        }
+        #i12{
+            margin-left: 7px;
+        }
+        #glass{
+            margin-top: -180px;
+            margin-left: 400px;
+            /* border: solid; */
+            width: 200px;
+            height: 180px;
+        }
+        .glass{
+            margin-top: 10px;
+            margin-left: 65px;
+            font-size: 50px;
+        }
+        #i2{
+          margin-left: 60px;
+          font-size: 17px;
+        }
+        #i22{
+            margin-left: 7px;
+        }
+        #bomb{
+            margin-top: -180px;
+            margin-left: 700px;
+            /* border: solid; */
+            width: 200px;
+            height: 180px;
+        }
+        .bomb{
+            margin-top: 10px;
+            margin-left: 65px;
+            font-size: 50px;
+        }
+        #i3{
+          margin-left: 70px;
+          font-size: 17px;
+        }
+        #i32{
+            margin-left: 7px;
+        }
+        #bowl{
+            margin-top: -180px;
+            margin-left: 1000px;
+            /* border: solid; */
+            width: 200px;
+            height: 180px;
+        }
+        .bowl{
+            margin-top: 10px;
+            margin-left: 65px;
+            font-size: 50px;
+        }
+        #i4{
+          margin-left: 20px;
+          font-size: 17px;
+        }
+        #i42{
+            margin-left: 7px;
+        }
+        #body{
+            background-color:#102a42;
+            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1));
+        }
+        #img1{
+            height: 280px;
+            width: 320px;
+        }
+        #pot{
+           margin-top: 30px;
+           margin-left: 30px;
+           border-radius: 10px;
+        }
+        .menu{
+            font-size: 50px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #img1{
+            border: 50px;
+            border: solid;
+            border-color: #63E6BE;
+            height: 350px;
+            width:450px;
+        }
+        #teastation{
+            margin-left: 730px;
+            font-size: 20px;
+            margin-top: -67px;
+        }
+        #about{
+            margin-left: 500px;
+            font-size: 22px;
+        }
+        #product{
+            position: absolute;
+            margin-top: 70px;
+            margin-left: 80px;
+            font-size: 20px;
+            height: 50px;
+            width:290px;
+            font-size: 30px;
+            color: #102a42;
+            font-family: sans-serif;
+        }
+        #about-2{
+            position: absolute;
+            margin-left: 50px;
+            width: 250px;
+            font-size: 20px;
+            margin-top: 120px;
+        }
+        #pro{
+           background-color:lightgrey;
+           height: 370px;
+           margin-top: 200px;
+        }
+        #img-1,#img-2,#img-3{
+            position: absolute;
+            height: 270px;
+            width: 290px;
+            margin-left: 400px;
+            margin-top: 20px;
+        }
+        #img-1{
+            margin-top: 20px;
+            margin-left:670px;
+        }
+        #img-2{
+            margin-top: -20px;
+            margin-left:330px;
+        }
+        #img-3{
+            margin-top: -60px;
+            margin-left:1000px;
+        }
+        #img-4{
+            margin-top: 500px;
+            margin-left:100px;
+            border: solid #678E3E;
+            border-radius: 20px;
+        }
+        #img-5{
+            margin-top: 480px;
+            margin-left:530px;
+            border: solid #678E3E;
+            border-radius: 20px;
+        }
+        h3{
+            font-family:sans-serif;
+            color: #678E3E;
+        }
+        #ginger{
+            position: absolute;
+            margin-top: 10px;
+        }
+        #fruit{
+            position: absolute;
+            margin-top: 50px;
+        }
+        #honey{
+            position: absolute;
+            margin-top: 90px;
+        }
+        #c1,#c2,#c3{
+            font-size: 18px;
+            position: absolute;
+        }
+        #c1{
+            margin-top: 275px;
+            margin-left: 430px;
+            width: 100px;
+        }
+        #c2{
+            margin-top: 235px;
+            margin-left: 750px;
+            width: 500px;
+        }
+        #c3{
+            margin-top: 195px;
+            margin-left: 1100px;
+            width: 500px;
+        }
+        button:hover{
+            color: white;
+            margin-top: 50px;
+        }
+        #m1,#m2,#m3{
+            margin-left: 20px;
+            margin-top: -20px;
+        }
+        #customer{
+            position: absolute;
+            margin-top: 450px;
+            margin-left: 550px;
+            font-size: 25px;
+            font-family: sans-serif;
+            color: darkblue;
+        }
+        #left,#right,#middle{
+            position: absolute;
+            margin-top: 500px;
+            height: 350px;
+            width: 250px;
+            border:#678E3E;
+            border-radius: 10px;
+            background-color: #678E3E;
+        }
+        #left{
+            margin-left: 50px;
+        }
+        #right{
+            margin-left: 500px;
+        }
+        #middle{
+            margin-top: -350px;
+            margin-left: 450px;
+        }
+        #top-left{
+            position: absolute;
+            margin-top: -1px;
+            height: 200px;
+            width: 250px;
+            border-radius: 10px;
+            margin-left: 0px;
+            background-image: url(./MEDIA/IMAGES/Tea\ glass.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius: none;
+            border-bottom-left-radius: none;
+        }
+        #bottom-left{
+            /* position: absolute; */
+            margin-top: 200px;
+            height: 150px;
+            width: 250px;
+            border-radius: 10px;
+            border-top-right-radius: none;
+            border-top-left-radius: none;
+            background-color: #678E3E;
+        }
+        #s1{
+            height: 200px;
+            width: 247px;
+        }
+        #top-right{
+            position: absolute;
+            margin-top: -1px;
+            height: 200px;
+            width: 250px;
+            border-radius: 10px;
+            margin-left: 0px;
+            background-image: url(./MEDIA/IMAGES/delivery.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius: none;
+            border-bottom-left-radius: none;
+        }
+        #bottom-right{
+            /* position: absolute; */
+            margin-top: 200px;
+            height: 150px;
+            width: 250px;
+            border-radius: 10px;
+            border-top-right-radius: none;
+            border-top-left-radius: none;
+            background-color: #678E3E;
+        }
+        #top-middle{
+            position: absolute;
+            margin-top: -1px;
+            height: 200px;
+            width: 250px;
+            border-radius: 10px;
+            margin-left: 0px;
+            background-image: url(./MEDIA/IMAGES/Tea\ pot.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius: none;
+            border-bottom-left-radius: none;
+        }
+        #middle-right{
+            /* position: absolute; */
+            margin-top: 200px;
+            height: 150px;
+            width: 250px;
+            border-radius: 10px;
+            border-top-right-radius: none;
+            border-top-left-radius: none;
+            background-color: #678E3E;
+        }
+        #crs,#hd,#tas{
+            padding-left: 40px;
+            font-family:"Grand Hotel";
+            font-size: 25px;
+            color:crimson;
+            padding-top: 40px;
+        }
+        #one,#two,#three{
+            padding-top: 0px;
+            font-size: 20px;
+            margin-left: 50px;
+            /* margin-top: 20px; */
+            height:40px;
+            width: 130px;
+        }
+        .cs1{
+            position: absolute;
+            border: solid 10px;
+            border-color:white;
+            margin-top: -130px;
+            margin-left: 100px;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+       .teacup{
+            position: absolute;
+            border: solid 10px;
+            border-color:white;
+            margin-top: -135px;
+            margin-left: 110px;
+            border-radius: 50px;
+            font-size: 30px;
+        }
+        #t1{
+            position: absolute;
+            border: solid 10px;
+            border-color:white;
+            margin-top: 1px;
+            margin-left: 100px;
+            border-radius: 40px;
+            font-size: 30px;
+        }
+        .contact-section {
+            background-color: dimgrey;
+            position:absolute;
+            height: 350px;
+            width: 1000px;
+  padding: 20px 180px;
+  margin-top: 1150px;
+  border: 5px solid;
+  border-image: linear-gradient(to right, rgb(90, 143, 61), gold, rgb(90, 143, 61)) 1 / 1 / 0 stretch;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.info-block {
+  margin-bottom: 40px;
+}
+
+.info-block i {
+  color: #6a933e;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.info-block h4 {
+  display: inline;
+  font-weight: 400;
+  color: #6a933e;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Catamaran", sans-serif;
+}
+
+.info-block p {
+  margin-top: 8px;
+  font-weight: 550;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  font-family: "Catamaran", sans-serif;
+  color: #102a42;
+  
+}
+
+.contact-form {
+  flex: 1;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #617d98;
+
+  font-family: "Catamaran", sans-serif;
+  /* margin-bottom: 100px; */
+  margin-top: -80px;
+  margin-left: 200px;
+  letter-spacing: 2px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #f0f5f9;
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #6a933e;
+  color: white;
+  border: none;
+  padding: 18px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+}
+.footer {
+            position: absolute;
+            background-color: #222;
+            text-align: center;
+            padding: 70px 0;
+            margin-top: 1700px;
+            width: 1400px;
+            font-family: 'Poppins', sans-serif;
+}
+
+.footer .social-icons {
+  margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+  color: white;
+  font-size: 22px;
+  margin: 0 15px;
+  margin-top: 100px;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #6a933e;
+}
+
+.footer p {
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer .brand {
+  color: #6a933e;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+#contacts{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 120px;
+}
